@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wills-words/static/css/main.f855e6bc.css",
+    "main.js": "/wills-words/static/js/main.ade7e949.js",
+    "static/js/488.927999c9.chunk.js": "/wills-words/static/js/488.927999c9.chunk.js",
+    "index.html": "/wills-words/index.html",
+    "main.f855e6bc.css.map": "/wills-words/static/css/main.f855e6bc.css.map",
+    "main.ade7e949.js.map": "/wills-words/static/js/main.ade7e949.js.map",
+    "488.927999c9.chunk.js.map": "/wills-words/static/js/488.927999c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ade7e949.js"
+  ]
+}

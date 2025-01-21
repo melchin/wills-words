@@ -1,7 +1,7 @@
 import './App.css';
 
 import Word from './components/Word';
-
+//
 const words = [
   'always',
   'before',

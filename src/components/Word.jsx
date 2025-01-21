@@ -10,7 +10,7 @@ const style = {
 
 const Word = ({ word }) => {
   const handleOnclick = () => {
-    const audio = new Audio(`/${word}.mp3`);
+    const audio = new Audio(`${process.env.PUBLIC_URL}/${word}.mp3`);
     audio.play();
   }
 

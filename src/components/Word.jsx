@@ -10,8 +10,8 @@ const style = {
 
 const Word = ({ word }) => {
   const handleOnclick = () => {
-    const audio = new Audio(`${process.env.PUBLIC_URL}/${word}.mp3`);
-    audio.play();
+    const utterance = new SpeechSynthesisUtterance(word);
+    window.speechSynthesis.speak(utterance);
   }
 
   return <button style={style}onClick={handleOnclick}> {word}</button>

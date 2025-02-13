@@ -12,7 +12,8 @@
   "homepage": "https://melchin.github.io/wills-words",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "prebuild": "react-scripts build" ,
+    "build": "./deploy-gh-pages",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
